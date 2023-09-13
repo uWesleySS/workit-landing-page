@@ -1,0 +1,83 @@
+.heading-l{
+    font-family: Fraunces, serif;
+    font-size: 5rem;
+}
+
+.heading-m{
+    font-family: Fraunces, serif;
+    font-size: 3.2rem;
+}
+
+.heading-s{
+    font-family: Fraunces, serif;
+    font-size: 2.8rem;
+}
+
+
+.btn-primary{
+    background-color: var(--secondary);
+    color: var(--primary);
+    padding: 1.6rem 2.4rem;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    font-size: 1.6rem;
+    transition: linear .2s;
+    min-height: 5.5rem;
+
+
+}
+
+.btn-primary:hover{
+    background-color: var(--primary);
+    color: var(--secondary);
+    border: solid .2rem var(--secondary);
+   
+}
+
+.btn-secondary{
+    color: var(--light);
+    border-bottom: solid .3rem var(--secondary);
+    font-size: 1.6rem;
+    font-weight: 700;
+    
+}
+
+.btn-secondary:hover{
+    color: var(--secondary);
+    
+}
+
+@media (min-width: 768px) {
+    .heading-l{
+        font-size: 6rem;
+    }
+    
+    .heading-m{
+        font-size: 4.8rem;
+    }
+
+    
+}
+
+@media (min-width: 1440px) {
+    .heading-l{
+        font-size: 8rem;
+    }
+
+    .heading-m{
+        font-size: 5.6rem;
+    }
+
+    .heading-s{
+        font-size: 3.2rem;
+    }
+
+    .btn-primary{
+        font-size: 1.8rem;
+    }
+
+    .btn-secondary{
+        font-size: 1.8rem;
+    }
+}
