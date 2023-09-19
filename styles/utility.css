@@ -1,83 +1,95 @@
-.heading-l{
-    font-family: Fraunces, serif;
-    font-size: 5rem;
+.container {
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+}
+.underline {
+  border-bottom: solid 0.3rem var(--secondary);
+}
+.heading-l {
+  font-family: Fraunces, serif;
+  font-size: 5rem;
+  font-weight: 600;
 }
 
-.heading-m{
-    font-family: Fraunces, serif;
-    font-size: 3.2rem;
+.heading-m {
+  font-family: Fraunces, serif;
+  font-size: 3.2rem;
 }
 
-.heading-s{
-    font-family: Fraunces, serif;
-    font-size: 2.8rem;
+.heading-s {
+  font-family: Fraunces, serif;
+  font-size: 2.8rem;
 }
 
-
-.btn-primary{
-    background-color: var(--secondary);
-    color: var(--primary);
-    padding: 1.6rem 2.4rem;
-    cursor: pointer;
-    border: none;
-    text-decoration: none;
-    font-size: 1.6rem;
-    transition: linear .2s;
-    min-height: 5.5rem;
-
-
+.btn-primary {
+  background-color: var(--secondary);
+  color: var(--primary);
+  padding: 1.6rem 2rem;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  transition: linear 0.2s;
+  text-align: center;
 }
 
-.btn-primary:hover{
-    background-color: var(--primary);
-    color: var(--secondary);
-    border: solid .2rem var(--secondary);
-   
+.btn-primary:hover {
+  background-color: var(--primary);
+  color: var(--secondary);
+  border: solid .2rem var(--secondary);
 }
 
-.btn-secondary{
-    color: var(--light);
-    border-bottom: solid .3rem var(--secondary);
-    font-size: 1.6rem;
-    font-weight: 700;
-    
+.btn-secondary {
+  color: var(--light);
+  border-bottom: solid 0.3rem var(--secondary);
+  font-size: 1.6rem;
+  font-weight: 700;
+  transition: linear 0.2s;
+  cursor: pointer;
 }
 
-.btn-secondary:hover{
-    color: var(--secondary);
-    
+.btn-secondary:hover {
+  color: var(--secondary);
 }
 
 @media (min-width: 768px) {
-    .heading-l{
-        font-size: 6rem;
-    }
-    
-    .heading-m{
-        font-size: 4.8rem;
-    }
+  .container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .heading-l {
+    font-size: 6rem;
+  }
 
-    
+  .heading-m {
+    font-size: 4.8rem;
+  }
 }
 
 @media (min-width: 1440px) {
-    .heading-l{
-        font-size: 8rem;
-    }
+  .container {
+    max-width: 118rem;
+    margin: auto;
+  }
 
-    .heading-m{
-        font-size: 5.6rem;
-    }
+  .heading-l {
+    font-size: 8rem;
+  }
 
-    .heading-s{
-        font-size: 3.2rem;
-    }
+  .heading-m {
+    font-size: 5.6rem;
+  }
 
-    .btn-primary{
-        font-size: 1.8rem;
-    }
+  .heading-s {
+    font-size: 3.2rem;
+  }
 
-    .btn-secondary{
-        font-size: 1.8rem;
-    }
+  .btn-primary {
+    font-size: 1.8rem;
+  }
+
+  .btn-secondary {
+    font-size: 1.8rem;
+  }
 }
