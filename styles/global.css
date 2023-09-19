@@ -1,35 +1,44 @@
 @font-face {
-    font-family: Fraunces;
-    src: url(../assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+  font-family: Fraunces;
+  src: url(../assets/fonts/fraunces/Fraunces-VariableFont_SOFT\WONK\opsz\wght.ttf);
 }
 
 @font-face {
-    font-family: Manrope;
-    src: url(../assets/fonts/manrope/Manrope-VariableFont_wght.ttf);
+  font-family: Manrope;
+  src: url(../assets/fonts/manrope/Manrope-VariableFont_wght.ttf);
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
 }
 
-:root{
-    --primary: #24053E;
-    --secondary: #44ffa1;
-    --grey: #584d62;
-    --ghost: #fcf8ff;
-    --light: #fff;
-
-
+:root {
+  --primary: #24053e;
+  --secondary: #44ffa1;
+  --grey: #584d62;
+  --ghost: #fcf8ff;
+  --light: #fff;
 }
 
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
 
-body{
-    font-family: Manrope, sans-serif;
-    font-size: 1.6rem;
-    font-weight: 400;
+body {
+  font-family: Manrope, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 1440px) {
+  body {
+    font-size: 1.8rem;
+  }
 }

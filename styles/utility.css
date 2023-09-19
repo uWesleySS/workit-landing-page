@@ -1,6 +1,14 @@
+.container{
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+}
+.underline{
+    border-bottom: solid .3rem var(--secondary);
+}
 .heading-l{
     font-family: Fraunces, serif;
     font-size: 5rem;
+    font-weight: 600;
 }
 
 .heading-m{
@@ -40,6 +48,8 @@
     border-bottom: solid .3rem var(--secondary);
     font-size: 1.6rem;
     font-weight: 700;
+    transition: linear .2s;
+    cursor: pointer;
     
 }
 
@@ -49,6 +59,10 @@
 }
 
 @media (min-width: 768px) {
+    .container{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
     .heading-l{
         font-size: 6rem;
     }
@@ -61,6 +75,12 @@
 }
 
 @media (min-width: 1440px) {
+
+    .container{
+       max-width: 112rem;
+       margin: auto;
+    }
+
     .heading-l{
         font-size: 8rem;
     }
